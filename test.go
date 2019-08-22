@@ -11,7 +11,7 @@ func main() {
 		Id:1,
 		Name:"katechun",
 	}
-	b1:=b.Ss{Id:m.Id,Name:m.Name}
+	b1:=b.Ss(m)
 
 
 	fmt.Println(b1)
